@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-spring-boot-app"
+  description: My spring boot app
+  annotations:
+    github.com/project-slug: harshadnawathe/my-spring-boot-app
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: thoughtworks
+  lifecycle: experimental
